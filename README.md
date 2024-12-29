@@ -1,42 +1,20 @@
-# Language Fluent  
-**An interactive language learning application designed to provide a personalized and engaging learning experience.**  
+# [Video Link](https://youtu.be/IOKqN_aZ444)
 
-## Features  
-**Interactive Language Learning**  
-◾ Cross-platform app leveraging **AWS Polly** for natural-sounding text-to-speech narration.  
+This project is a language learning platform that helps users practice Spanish through interactive lessons and quizzes. Users can progress through multiple courses and lessons, tracking their progress as they complete activities and improve their language skills. The platform offers various question types, including multiple choice, true/false, and flashcards, providing a structured and engaging way to learn. With a focus on practical vocabulary and phrases, the program dynamically loads content from JSON files, ensuring a seamless and personalized learning experience. Progress is saved automatically, allowing users to pick up right where they left off.
 
-**User Progress Tracking**  
-▪ Persistent progress storage for:  
-  - 3+ courses  
-  - 6+ unique lessons and assignments  
-▪ Powered by **JSON data management**.  
-
-**Diverse Question Types**  
-▶️ Supports 3 interactive question types:  
-  - Flashcards  
-  - Multiple-choice quizzes  
-  - True/false questions  
-
-**Clean and Intuitive User Interface**  
-✔ Designed with **JavaFX** for a seamless, user-friendly experience.  
-
-**Backend Logic for Course Management**  
-➤ Robust architecture utilizing data writer/loader for efficient course and lesson management.  
+The application is built with a backend system for course management, uses AWS Polly for text-to-speech narration and with thst, provides excellent audio learning experience. Content is dynamically loaded from JSON files, offering flexibility in adding or updating lessons. The clean and intuitive JavaFX GUI enhances usability, while persistent data storage ensures users can pick up right where they left off.
 
 
-## Tech Stack & Skills  
-- **Programming Language:** Java  
-- **Technologies:** AWS Polly, JavaFX  
-- **Key Concepts:** Backend development, JSON data persistence, interactive UX design  
 
 
-## How It Works  
-- **User Authentication:**  
-   Securely log in to access personalized courses and progress.  
-- **Learn & Practice:**  
-   Choose from multiple courses and navigate through interactive lessons with real-time feedback.  
-- **Track Progress:**  
-   Your progress is automatically saved, so you can pick up where you left off anytime.  
+# Features
 
+User Management: Register and log in users; track progress for each user by lessons, assessments, and courses.
 
-Let me know if you’d like additional tweaks or adjustments!  
+Course Management: Multiple courses available, each with lessons and assessments; lesson progress tracking with auto-completion.
+
+Dynamic content: All content is either dynamically loaded or custom generated
+
+Data Persistence: All data is stored and is loaded and saved between the front and backend seamlessly
+
+Lessons and Assessments: Interactive lessons and assessments tailored to user progress; Question types include multiple choice, flashcards, and true/false
